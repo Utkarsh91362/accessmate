@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/accessmate/static/css/main.06ebcea0.css",
+    "main.js": "/accessmate/static/js/main.97601f1f.js",
+    "static/js/453.6a0ecaad.chunk.js": "/accessmate/static/js/453.6a0ecaad.chunk.js",
+    "index.html": "/accessmate/index.html",
+    "main.06ebcea0.css.map": "/accessmate/static/css/main.06ebcea0.css.map",
+    "main.97601f1f.js.map": "/accessmate/static/js/main.97601f1f.js.map",
+    "453.6a0ecaad.chunk.js.map": "/accessmate/static/js/453.6a0ecaad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06ebcea0.css",
+    "static/js/main.97601f1f.js"
+  ]
+}
