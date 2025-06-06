@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <Link className="logo" to="/">accessMate</Link>
+    <nav className="navbar" role="navigation" aria-label="Main navigation">
+      <Link className="logo" to="/">
+        accessMate
+      </Link>
       <div className="links">
         <Link to="/pricing">Pricing</Link>
         <Link to="/faq">FAQ</Link>

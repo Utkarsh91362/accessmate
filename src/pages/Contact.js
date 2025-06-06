@@ -8,7 +8,7 @@ function Contact() {
 
       <h3>Telegram Support:</h3>
       <p>
-        <a href="https://t.me/accessMateSupport" target="_blank" rel="noreferrer">
+        <a href="https://t.me/+QGHgAanPpDw4OGY1" target="_blank" rel="noreferrer">
           @accessMateSupport
         </a>
       </p>

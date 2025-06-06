@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import Navbar from './components/Navbar';
@@ -13,8 +13,8 @@ import Terms from './pages/Terms';
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    <Router>
+      <div className="App">
         <Navbar />
 
         <div className="content">
@@ -28,8 +28,8 @@ function App() {
         </div>
 
         <Footer />
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
