@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar" role="navigation" aria-label="Main navigation">
       <Link className="logo" to="/">
-        accessMate
+        AccessMate
       </Link>
       <div className="links">
         <Link to="/pricing">Pricing</Link>

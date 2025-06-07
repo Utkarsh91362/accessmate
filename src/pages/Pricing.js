@@ -4,7 +4,8 @@ import PlanCard from '../components/PlanCard';
 function Pricing() {
   return (
     <main className="page pricing">
-      <h1>Plans & Pricing (in USD)</h1>
+      <h1 style={{ color: 'white' }}>Plans & Pricing (in USD)</h1>
+
 
       <section className="plans">
         <PlanCard
@@ -32,10 +33,15 @@ function Pricing() {
       </section>
 
       <aside className="note" aria-live="polite">
-        💸 Payments accepted via USDT (TRC20), PayPal, or Indian UPI.
-        <br />
-        💬 DM on Telegram to activate.
-      </aside>
+  💸 Payments accepted via USDT (TRC20) only.
+  <br />
+  💬 DM on{' '}
+  <a href="https://t.me/+QGHgAanPpDw4OGY1" target="_blank" rel="noopener noreferrer">
+    Telegram
+  </a>{' '}
+  to activate.
+</aside>
+
     </main>
   );
 }

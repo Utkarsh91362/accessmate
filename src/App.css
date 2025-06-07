@@ -1,18 +1,32 @@
-/* Base Styles */
+/* Background image for the whole app */
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
   color: #222;
+  
+  /* background image */
+  background-image: url('./components/images/background.png'); /* Adjust path as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Ensure minimum height to cover viewport */
+  min-height: 100vh;
 }
 
+/* Override your old background-color for body */
+body {
+  background-color: transparent; /* So your image shows */
+}
+
+/* Keep your existing .App styles */
 .App {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Navbar */
+/* Rest of your CSS below */
 .navbar {
   background-color: #1a1a1a;
   color: white;
